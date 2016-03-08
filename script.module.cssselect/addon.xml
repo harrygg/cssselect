@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.cssselect" name="cssselect" version="0.9.1" provider-name="HarryGG">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>parses CSS3 Selectors and translates them to XPath 1.0</summary>
+    <description>Packed for Kodi from https://github.com/SimonSapin/cssselect/</description>
+    <platform>all</platform>
+    <language></language>
+    <license>Apache2</license>
+    <forum>https://github.com/SimonSapin/cssselect/issues</forum>
+    <website>https://pypi.python.org/pypi/cssselect</website>
+    <source>https://github.com/SimonSapin/cssselect/</source>
+  </extension>
+</addon>
